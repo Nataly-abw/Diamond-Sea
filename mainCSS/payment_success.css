@@ -1,0 +1,48 @@
+.mainPanel {
+    border-color: white !important;
+}
+
+.headingTitle {
+    color: #0077b6 !important;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.divider {
+    border-color: #0077b6;
+}
+
+.successPaymentMssg {
+    color: #748DA6;
+    font-weight: 500;
+    font-size: large;
+}
+
+.orderInfoBttn {
+    background-color: #0077b6 !important;
+    border-color: #0077b6 !important;
+    color: white;
+    display: inline-block;
+}
+
+.continueShopBttn {
+    background-color: #0077b6 !important;
+    border-color: #0077b6 !important;
+    color: white;
+    display: inline-block;
+}
+
+.continueShopBttnBox {
+    float: right;
+}
+
+.orderInfoBttnBox :hover {
+    background-color: #748DA6  !important;
+    border-color: #748DA6  !important;
+}
+
+.continueShopBttnBox :hover {
+    background-color: #748DA6  !important;
+    border-color: #748DA6  !important;
+}
+

@@ -1,0 +1,22 @@
+.tableHead {
+    color: #748DA6;
+    text-align: center;
+}
+
+.tabData {
+    color: #748DA6;
+    background-color: white !important;
+    text-align: center;
+}
+
+.tabBttns {
+    color: #0077b6 !important;
+    background-color: white !important;
+    border-color: #0077b6 !important;
+    font-weight: 500;
+}
+
+.tabBttnsBox :hover {
+    color: white;
+    background-color: #0077b6;
+}

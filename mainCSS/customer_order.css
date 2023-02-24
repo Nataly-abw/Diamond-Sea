@@ -1,0 +1,29 @@
+.mainPanel {
+    border-color: white !important;
+}
+
+.headingTitle {
+    color: #0077b6 !important;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.divider {
+    border-color: #0077b6;
+}
+
+.itemImg {
+    width: 50%;
+    float: right;
+    margin-bottom: 3px;
+}
+
+.item {
+    color: #748DA6 !important;
+    font-weight: 700;
+}
+
+.itemDesc {
+    color: #748DA6 !important;
+    font-weight: 400;
+}

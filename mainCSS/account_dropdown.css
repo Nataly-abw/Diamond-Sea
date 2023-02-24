@@ -1,0 +1,72 @@
+/*Sign In*/
+.primaryPanel {
+    border-color: white !important;
+}
+
+.headingPanel {
+    color: #0077b6 !important;
+    font-weight: 700;
+    font-size: large;
+    background-color: white !important;
+    border-color: #0077b6 !important;
+    margin: inherit;
+}
+
+.bodyPanel {
+    color: #0077b6 !important;
+    background-color: white !important;
+    border-color: #0077b6  !important;
+}
+
+.formLabels {
+    color: #748DA6 !important;
+    font-weight: 400 !important;
+    pointer-events: none !important;
+}
+
+.signInBttn {
+    display: inline-block;
+    color: white !important;
+    background-color: #0077b6 !important;
+    border-color: #0077b6 !important;
+}
+
+/*Created this class to fit the sign in button in its div and apply hover on it*/
+.signInBttnBox {
+    float: right;
+}
+
+.signInBttnBox :hover {
+    color: white !important;
+    background-color: #748DA6 !important;
+    border-color: #748DA6 !important;
+}
+
+.signInBttnBox :focus {
+    color: white !important;
+    background-color: #748DA6 !important;
+    border-color: #748DA6 !important;
+}
+
+.formLinks {
+    color: #748DA6;
+    font-weight: 400 !important;
+}
+
+.loginMssg {
+    color: #cc0000;
+    font-weight: 400;
+    background-color: #ffcccc;
+    pointer-events: none !important;
+}
+
+/*This class is for login_form.php*/
+.formLinksdiv :hover {
+    color: #0077b6 !important;
+}
+
+
+
+
+
+

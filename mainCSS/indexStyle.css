@@ -1,0 +1,159 @@
+body {
+    font-family: "poppins", sans-serif !important;
+}
+
+.logoStyling {
+    width: 250px;
+    margin-top: -5%;
+}
+
+.navbarStyle {
+    background-color: white;
+    border-color: white;
+}
+
+/*When you open the Account and Cart Dropdown*/
+.navbar-nav>.open>a {
+    background-color: white !important;
+    color: #748DA6 !important;
+}
+
+.iconStyling {
+    color: #0077b6;
+}
+
+.liIconStyling :hover {
+    color: #0077b6 !important;
+}
+
+.liIconStyling :focus {
+    color: #0077b6 !important;
+    background-color: transparent !important;
+}
+
+.cartBadge {
+    background-color: white;
+    color: #0077b6;
+}
+
+.searchbttn {
+    background-color: #0077b6 !important;
+    border-color: #0077b6 !important;
+    border-radius: 4px;
+}
+
+/*Created this class to fit the search button in its div and apply hover on it*/
+.searchBoxBttn {
+    display: inline-block;
+}
+ 
+.searchBoxBttn :hover {
+    background-color: #748DA6 !important;
+    border-color: #748DA6 !important;
+}
+
+.blueBorder {
+    border-color: #0077b6 !important;
+}
+
+.burgerMenuBttn {
+    background-color: #0077b6;
+    border-color: #0077b6 !important;
+}
+
+.panell {
+    border-color: transparent !important;
+}
+
+/*The div that contains "New Items"*/
+.productsPanelTitle {
+    color: #0077b6 !important;
+    background-color: white !important;
+    border-color: #0077b6 !important;
+    font-weight: 500;
+    font-size: large;
+}
+
+.productPanelstyling {
+    border-color: transparent;
+}
+
+.productPanelStylingUpper {
+    background-color: white !important;
+    color: #0077b6 !important;
+    border-color: #0077b6 !important;
+}
+
+.productImgStyling {
+    width: 100% !important;
+}
+
+.productPanelStylingLower {
+    background-color: white !important;
+    color: #0077b6 !important;
+    border-color: transparent !important;
+}
+
+.addToCartBttn {
+    background-color: #0077b6;
+    border-color: #0077b6;
+}
+
+/*Hover for the addToCart button*/
+.productPanelStylingLower :hover {
+    background-color: #748DA6 !important;
+    border-color: #748DA6 !important;
+}
+
+.productPanelStylingLower :focus {
+    background-color: #748DA6 !important;
+}
+
+.menuStyling {
+    background-color: #0077b6 !important;
+}
+
+.categoryItemsStyling a{
+    color: #748DA6 !important;
+}
+
+.categoryItemsStyling :hover {
+    background-color: transparent !important;
+    color: #0077b6 !important;
+    padding-left: 8px;
+    font-weight: 600;
+}
+
+/*while a certain category or collection is selected ":focus"*/
+.focuslia :focus {
+    background-color: transparent !important;
+    color: #0077b6 !important;
+    padding-left: 8px;
+    font-weight: 600;
+}
+
+/*This class is for profile.php*/
+.accountDropdownItems {
+    color: #748DA6 !important;
+    font-weight: 400;
+}
+
+/*These classes are for all the Alert messages*/
+.successAlert {
+    color: #339966;
+    background-color: #ccffcc;
+    border-color: #ccffcc;
+    font-size: small;
+}
+
+.failAlert {
+    color: #cc0000;
+    background-color: #ffcccc;
+    border-color: #ffcccc;
+    font-size: small;
+}
+
+/*This class is for the navbar "navigation_bar.php"*/
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; 
+}

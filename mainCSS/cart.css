@@ -1,0 +1,62 @@
+.primaryPanel {
+    border-color: white !important;
+}
+
+.headingPanel {
+    color: #0077b6 !important;
+    background-color: white !important;
+    border-color: #0077b6 !important;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.cartCols {
+    color: #0077b6 !important;
+    margin-bottom: 3% !important;
+}
+
+.itemDesc {
+    color: #748DA6 !important;
+    font-weight: 400 !important;
+}
+
+.deleteItemBttn {
+    color: #0077b6 !important;
+    background-color: white !important;
+    border-color: #0077b6 !important;
+}
+
+.updateItemBttn {
+    background-color: #0077b6 !important;
+    border-color: #0077b6 !important;
+}
+
+.totalItemsPrice {
+    color: #748DA6 !important;
+    font-size: large;
+    font-weight: 700;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.checkoutBttn {
+    color: white !important;
+    background-color: #0077b6 !important;
+    border: #0077b6 !important;
+    display: inline-block;
+}
+
+.checkoutBttnBox {
+    float: right;
+}
+
+.checkoutBttnBox :hover {
+    background-color: #748DA6 !important;
+    border-color: #748DA6 !important;
+}
+
+/*This class is for Paypal checkout button in the shopping cart when a user is logged in*/
+.paypalCheckoutBttn {
+    float: right;
+    width: 25%;
+}

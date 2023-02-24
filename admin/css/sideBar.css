@@ -1,0 +1,72 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #999;
+}
+
+.sidebar .nav-link.active {
+    color: #748DA6 !important;
+    background-color: white !important;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+.sideBar {
+    margin-top: 20px;
+    background-color: #0077b6;
+    color: white !important;
+    font-size: large;
+    text-align: center;
+}
+
+.sideBarLinks {
+    color: white !important;
+    font-weight: 400;
+}
+
+.sideBarLinksBox :hover {
+    color: #748DA6 !important;
+    background-color: white !important;
+}
+
+.welcomingAdmin {
+    color: #0077b6;
+}
+
+.welcomingDivider {
+    border-bottom-color: #0077b6 !important;
+}

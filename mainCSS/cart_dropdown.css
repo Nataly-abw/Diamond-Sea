@@ -1,0 +1,43 @@
+.cartPrimaryPanel {
+    border-color: white !important;
+    width: 500px;
+    height: 170px;
+    overflow-y: scroll;
+}
+
+.cartHeadingPanel {
+    color: #0077b6 !important;
+    font-weight: 400;
+    background-color: white !important;
+    border-color: #0077b6 !important;
+    margin: inherit;
+    pointer-events: none !important;
+}
+
+.cartBodyPanel {
+    color: #748DA6 !important;
+}
+
+.viewCartBttn {
+    color: white !important;
+    background-color: #0077b6 !important;
+    border-color: #0077b6 !important;
+    display: inline-block;
+}
+
+/*Created this class to fit the viewBag button in its div and apply hover on it*/
+.viewBagBttnBox {
+    float: right;
+}
+
+.viewBagBttnBox :hover {
+    color: white !important;
+    background-color: #748DA6 !important;
+    border-color: #748DA6 !important;
+}
+
+.viewBagBttnBox :focus {
+    color: white !important;
+    background-color: #748DA6 !important;
+    border-color: #748DA6 !important;
+}

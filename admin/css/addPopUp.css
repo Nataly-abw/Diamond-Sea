@@ -1,0 +1,33 @@
+.addBttn {
+    color: white;
+    font-weight: 500;
+    background-color: #0077b6;
+    border-color: #0077b6;
+    display: inline-block;
+}
+
+.addBttnBox :hover {
+    background-color: #748DA6 !important;
+    border-color: #748DA6 !important;
+}
+
+/*Popup Modal*/
+.modalHeader {
+    color: #0077b6;
+}
+
+.popupLabels {
+    color: #748DA6;
+    font-weight: 400;
+}
+
+.popupInputs {
+    box-shadow: unset !important;
+    text-decoration: none !important;
+}
+
+.optionsDropdown {
+    color: #0077b6 !important;
+}
+
+

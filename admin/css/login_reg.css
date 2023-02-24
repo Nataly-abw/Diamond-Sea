@@ -1,0 +1,42 @@
+.formHeading {
+    color: #0077b6;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.formLabels {
+    color: #748DA6;
+    font-weight: 400;
+}
+
+.formInputs {
+    box-shadow: unset !important;
+    text-decoration: none !important;
+}
+
+.submitBttn {
+    color: white;
+    background-color: #0077b6;
+    border-color: #0077b6;
+    display: inline-block;
+    box-shadow: unset !important;
+}
+
+.submitBttnBox {
+    float: right;
+}
+
+.submitBttnBox :hover {
+    background-color: #748DA6 !important;
+    border-color: #748DA6 !important;
+}
+
+.alertSuccMssg {
+    color: #339966;
+    background-color: #ccffcc;
+}
+
+.alertFailMssg {
+    color: #cc0000;
+    background-color: #ffcccc;
+}

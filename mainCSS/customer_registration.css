@@ -1,0 +1,30 @@
+.primaryRegPanel {
+    border-color: white !important;
+    width: 70%;
+    margin: auto;
+}
+
+.headingPanel {
+    color: #0077b6 !important;
+    background-color: white !important;
+    border-color: #0077b6 !important;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.bodyLabels {
+    color: #748DA6 !important;
+    font-weight: 400 !important;
+}
+
+.regBttn {
+    color: white;
+    background-color: #0077b6 !important;
+    border-color: #0077b6 !important;
+    float: right;
+}
+
+.regBttnBox :hover {
+    background-color: #748DA6 !important;
+    border-color: #748DA6 !important;
+}
